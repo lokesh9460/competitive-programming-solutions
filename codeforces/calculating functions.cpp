@@ -59,13 +59,13 @@ typedef map<char, int> mci;
 
 void solve()
 {
-    int n;
+    ll n;
     cin >> n;
-    int ans;
-    if (n % 2 == 0)
-        ans = n / 2;
+    ll ans;
+    if (n %2==0)
+        ans = n/2;
     else
-        ans = ((n + 1) / 2) * (-1);
+        ans = -(n+1)/2;
     cout << ans << endl;
 
 }
