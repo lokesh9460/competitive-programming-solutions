@@ -56,7 +56,7 @@ typedef map<char, int> mci;
 #define fast ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 #define mod 1000000007
 
-
+// program
 void solve()
 {
     int n, a, b, c, d;
